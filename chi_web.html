@@ -5,13 +5,18 @@
         <title>비타민 추천</title>
         
        <style>
-        html,
-            body{width:50%;
-            margin:auto;
+        html,body{width:100%;
+            
            padding-left:12px;
            padding-right:12px;
+            margin:0px auto;
+            max-width:670px; border-width:0;border: 0;border-style:solid; box-sizing:border-box;
+        
+    		
+                
+                            
            }
-       video { max-width: 80%; display: block; margin: 20px auto; }
+       
         h1 {
         text-align:center;
         border-bottom:1px;
@@ -19,8 +24,7 @@
         border-bottom-style:solid;
     	padding-bottom:18px;
             
-        }
-            
+           }
         .imp {
            
             margin-right:400;
@@ -33,59 +37,79 @@
             padding-bottom:18px;
             
             }
+           .imp1 {
+            	border-bottom:1px;
+        		border-bottom-color:black;
+       			border-bottom-style:solid;
+            	padding-bottom:18px;
+            	border-top: 1px;
+            	border-top-style:solid;
+            	border-top-color:black;
+            	padding-top:18px;
+                text-align:center;
+               font-size:25px;
+               font-family: 'Roboto', sans-serif;
+           }
         
-            }
-        #woman {
-             display:grid;
-            grid-template-columns: 100px 1fr;
-            }
-        .woman {
-             margin-right:400;
-            padding-left:37px;
-            }
-         #man {
-             display:grid;
-            grid-template-columns: 100px 1fr;
-            }
-        .man {
-             margin-right:400;
-            padding-left:37px;
-            }
-        @media only screen and (max-width: 640px){
-	.stb-left-cell,
-	.stb-right-cell {max-width:100%!important;width:100%!important;}
-	.stb-container {width: 94%!important}
-
-	.stb-container-full {
-		padding-bottom: 100px!important;
-	}
+            
+        
+           .size {
+               max-width:600px;
+               margin:auto;
+               
+           }
 }
             
     
         </style>
+        
+        
+     <script>
+           var Body= {
+            setline :function(color, style1, thick) {
+                border-bottom-color = color;
+        		border-bottom-style = style1;
+    			padding-bottom= thick;
+           } 
+         }
+         	
+    </script>
     </head>
-    <body style="width:100%;background-color:#e5e5e5;margin:0px;">
+    <body style = background-color:#e5e5e5; >
         <h1>무너지는 영양소</h1>
         
             <div class='imp'>
         갑자기 비타민?<br>
-        	</div>
+        </div>
         <p>
+        
             
         
-        <img src = /workspace/chi_web/Vitaminexplosion.gif>
         
     	
         </p>
-        <br>비타민은 생명에 필수적인 요소로, 우리가 섭취한 음식물로부터 에너지를 발생시키는 과정을 조절하고 여러 가지 물질대사를 조절해 인간의 성장, 활력, 건강을 유지하기 위해 없어서는 안 되는 필수 물질이다.<br>
-        하지만 인체에서 자체적으로 합성되지 않기 때문에 매일 식사 등을 통해 공급해야만 결핍증을 피할 수 있다.<br>
+        <div><br></div>
+        <div class= size>
+            비타민은 생명에 필수적인 요소입니다. 인간의 성장, 활력, 건강을 유지하기 위해 없어서는 안 되는 필수 물질인데요. 
+            비타민은 인체에서 자체적으로 합성되지 않기 때문에 매일 식사를 통해 공급받아야만 결핍증을 피할 수 있습니다.
+            그래서 식사를 골고루 잘하는 분이라면 굳이 영양제의 도움을 받을 필요가 없습니다. 하지만 바쁜 현대사회를 살아가는 우리들은 영양소를 고르게 섭취하기 힘든 게 현실이에요.
+            <br>
+        </div>
         
         
-        <div>
+        <div class = imp1>
          더 자세히 말해줄래?
         </div>
- 건강 전문가들이 가장 많이 복용하는 영양제 Top5<br>
-        <div class = ''>
+    	<div class = size>
+        귀찮은 너희를 위해 만들었어
+    	</div>
+    	<div class = imp1>
+        
+    
+ 			건강 전문가들이 가장 많이 복용하는 영양제 Top5<br>
+        </div>
+    
+    <div class = ''>
         	<ol>
         <li>종합비타민</li>
         <li>프로바이오틱스</li> 
@@ -94,18 +118,23 @@
         <li>루테인</li> 오메가3랑 먹으면 효과높아지고 건조증과 시력저하예방 코엔자임 Q10노화방지 20대 넘어가면서 생성 감소
             </ol>
         </div>
+        <div class = imp1>
+            
         
         성별에 따라 선호하는 영양제<br>
-        <div id = 'woman'>
-            <div class = 'woman'>
+        </div>
+        
+            <div class = size>
                 <br>
         	여성
         	</div>
         <br>
         <br>
+        <div>
         1. 프로바이오틱스 <br>
         2. 종합비타민<br><br>
-                     
+        </div>
+        <div class = size>
         다이어트 등으로 인한 배변 활동 문제가 잦아 배변 활동 개선에 도움이 되는 프로바이오틱스 복용이 많았던 것으로 추정<br>
         국내 10~50대 여성 76%가 겪는 질염 완화에도 도움이 된다. 질염은 여성 생식기 질환 중 가장 흔한 질병으로 꼽히는데, 유해균이 질에 번식하게 되면서 생긴다. <br>
         이때 질에 작용하는 유산균을 섭취하면, 유해균 억제 효과를 볼 수 있다.<br>
